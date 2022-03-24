@@ -477,6 +477,15 @@ footer .container {
     max-width: 1180px;
     margin: 0 auto;
 }
+.comment-form-comment label {
+    width: 100%;
+}
+.submit {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 7px 10px;
+}
 /** Media Queries **/
 @media (min-width: 1200px) {
     .container {

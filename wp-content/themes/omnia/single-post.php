@@ -68,6 +68,7 @@ $add_slider = get_field('add_slider', 'option');
                             $googlePlus = get_field('google_plus', 'option');
                             $skype = get_field('skype', 'option');
                             ?>
+                            <?php if (!empty($skype) || !empty($fbLink) || !empty($twitterLink) || !empty($googlePlus)) { ?> 
                             <div class="social-info">
                                 <h3>Share:</h3>
                                 <ul class="list-inline mb-0 social-link-list">
@@ -101,6 +102,7 @@ $add_slider = get_field('add_slider', 'option');
                                     <?php } ?>
                                 </ul>
                             </div>
+                             <?php } ?>
                         </div>
                         <div class="col-sm-3 project-info-wrap">
                             <?php if (!empty($customField)) { ?>
